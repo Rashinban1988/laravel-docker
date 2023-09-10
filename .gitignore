@@ -1,0 +1,3 @@
+# laravelをdockerで動かした時に gitignore に追加するファイル
+./mysql
+./docker/nginx/logs
