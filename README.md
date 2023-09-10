@@ -1,3 +1,14 @@
+## Laravel-Dockerをclone直後に下記を実行してください
+### ログファイルを格納するディレクトリを作る
+- mkdir ./docker/nginx/logs
+### MySQLで使用するディレクトリを作る
+- mkdir ./docker/mysql
+### 上記を実行したらDockerを起動
+- docker compose up -d
+### localhost:88にアクセスし、Laravel初期画面の表示を確認して下さい
+
+##　下記はLaravelの説明
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
