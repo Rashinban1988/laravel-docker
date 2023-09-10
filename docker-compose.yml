@@ -7,7 +7,7 @@ services:
     depends_on:
       - laravel-docker-app
     ports:
-      - 81:80
+      - 88:80
     volumes:
       - ./:/src
 
